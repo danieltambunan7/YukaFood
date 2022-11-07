@@ -1,0 +1,136 @@
+html{
+  scroll-behavior: smooth;
+}
+.jumbotron{
+    float: left;
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+  } 
+.header{
+  background-color: rgb(126, 126, 126);
+  padding-bottom: 5px;
+}
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+ nav {
+    padding: 2px;
+    padding-top: 10px;
+    text-align:right;
+  }
+ nav a {
+    font-size: 10px;
+    color : rgb(255, 255, 255);
+    }
+
+ main {
+    padding: 20px;
+    overflow: auto;
+    width: 100%;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 20px;
+    text-align: center;
+    height:fit-content;
+  }
+  .card2 {
+    box-sizing: border-box;
+    width: 23%;
+    height: 5%;
+    display:inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+  }
+ nav a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+ 
+ nav a:hover {
+    font-weight: bold;
+  }
+ 
+ h2{
+     color: #6f797c;
+     font-size: 20px;
+    }
+ h3{
+    color: white;
+    }
+  input[type=number]{
+    width: 50%;
+    border-radius: 5px;
+  }
+  td{
+    width: 50%;
+  }
+.title{
+  text-align: right;
+}
+.input{
+  text-align: left;
+}
+ footer {
+     color: white;
+     background-color: #6f797c;
+     text-align : center;
+     font-weight: bold;
+     padding: 5px;
+  }
+  #content {
+    float: left;
+    width: 100%;
+  }
+
+#CONTACT{
+  color: white;
+}
+
+.button{
+  color: rgb(19, 18, 18);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 100px;
+}
+.button:hover{
+  background-color: green;
+  width: 120px;
+  font-size: 22px;
+}
+#total{
+  border: none;
+}
+  * {
+    box-sizing: border-box;
+  } 
+  .contact_link{
+    word-spacing: 10px;
+  }
+#total{
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  width:100%;
+}
+    

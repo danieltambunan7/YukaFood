@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuka Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="jumbotron">
+            <h1 id="Yuka Food">YUKA<font color="darkred">FOOD</font></h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#PROMO">PROMO</a></li>
+                    <li><a href="#FOOD">FOOD</a></li>
+                    <li><a href="#DRINKS">DRINKS</a></li>
+                    <li><a href="#CONTACT">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <div id="content">
+            <div class="card">
+                <h2 id="PROMO">PROMO</h2>
+                    <div class="card2" name="ayam bakar">
+                        <img src="assets/image/Ayam bakar.png" alt="" width="100%" height="100%">
+                        <td id="nama1" class="title"> Ayam Bakar</td>  
+                        <p><s>Rp. 20.000</s> <b id="price1" class="price">Rp.15.000</b></p>
+                    </div>
+                    <div class="card2" name="sate">
+                        <img src="assets/image/sate ayam.png" alt="" width="100%" height="100%">
+                        <td id="nama2" class="title">Sate Ayam</td>
+                        <p><s>Rp. 25.000</s> <b id="price2" class="price">Rp.20.000</b></p>
+                    </div>
+                    <div class="card2" name="nasi goreng">
+                        <img src="assets/image/nasi goreng.png" alt="" width="100%" height="100%">
+                            <td id="nama3" class="title">Nasi Goreng</td>
+                        <p><s>Rp. 20.000</s> <b id="price3" class="price">Rp.15.000</b></p>
+                    </div>
+            </div>
+
+            <div class="card">
+                <h2 id="FOOD">FOOD</h2>
+                <div class="card2" name="ayam bakar">
+                    <img src="assets/image/Ayam bakar.png" alt="" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                    <tr>
+                        <td id="nama1" class="title">Ayam Bakar</td>
+                        <td class="input"><input id="jumlah1" type="number" onchange="handleOnChange(1)"></td>
+                    </tr>
+                    </table>    
+                    <p><s>Rp. 20.000</s> <b id="price1" class="price">Rp. 15.000</b></p>
+                </div>
+                <div class="card2">
+                    <img src="assets/image/ayam goreng.jpg" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama14" class="title">Ayam Goreng</td>
+                        <td class="input"><input id="jumlah14" type="number" onchange="handleOnChange(14)"></td>
+                        </tr>
+                    </table>
+                    <p id="price14" class="price">Rp. 20.000</p>
+                </div>
+                <div class="card2" name="ayam bakar">
+                    <img src="assets/image/gulai ayamm.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama4" class="title">Gulai Ayam</td>
+                            <td class="input"><input id="jumlah4" type="number" onchange="handleOnChange(4)"></td>
+                        </tr>
+                    </table>
+                    <p id="price4" class="price">Rp. 25.000</p>
+                </div>
+                <div class="card2" name="sate ayam">
+                    <img src="assets/image/sate ayam.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama5" class="title">Sate Ayam</td>
+                            <td class="input"><input id="jumlah5" type="number" onchange="handleOnChange(5)"></td>
+                        </tr>
+                    </table>
+                    <p><s>Rp. 25.000</s> <b id="price5" class="price">Rp. 20.000</b></p>
+                </div>
+                <div class="card2" name="bebek madura">
+                    <img src="assets/image/bebek madura.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama6" class="title">Bebek madura</td>
+                            <td class="input"><input id="jumlah6" type="number" onchange="handleOnChange(6)"></td>
+                        </tr>
+                    </table>
+                    <p id="price6" class="price">Rp. 30.000</p>
+                </div>
+                <div class="card2" name="bebek goreng">
+                    <img src="assets/image/bebek goreng.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama7" class="title">Bebek Goreng</td>
+                            <td class="input"><input id="jumlah7" type="number" onchange="handleOnChange(7)"></td>
+                        </tr>
+                    </table>
+                    <p id="price7" class="price">Rp. 30.000</p>
+                </div>
+                <div class="card2" name="nasi goreng">
+                    <img src="assets/image/nasi goreng.png" alt="" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                    <tr>
+                        <td id="nama3" class="title">Nasi Goreng</td>
+                        <td class="input"><input id="jumlah3" type="number" onchange="handleOnChange(3)"></td>
+                    </tr>
+                    </table>
+                    <p><s>Rp. 20.000</s> <b id="price3" class="price">Rp. 15.000</b></p>
+                </div>
+                <div class="card2" name="sop iga">
+                    <img src="assets/image/sop igaa.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama8" class="title">Sop Iga</td>
+                            <td class="input"><input id="jumlah8" type="number" onchange="handleOnChange(8)"></td>
+                        </tr>
+                    </table>
+                    <p id="price8" class="price">Rp. 35.000</p>
+                </div>
+                <div class="card2" name="nasi putih">
+                    <img src="assets/image/nasi putih.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama9" class="title">Nasi Putih</td>
+                            <td class="input"><input id="jumlah9" type="number" onchange="handleOnChange(9)"></td>
+                        </tr>
+                    </table>
+                    <p id="price9" class="price">Rp. 7.000</p>
+                </div> 
+            </div>
+
+            <div class="card">
+                <h2 id="DRINKS">DRINKS</h2>
+                <div class="card2" name="teh">
+                    <img src="assets/image/teh.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama10" class="title">Teh Manis</td>
+                            <td class="input"><input id="jumlah10" type="number" onchange="handleOnChange(10)"></td>
+                        </tr>
+                    </table>
+                    <p id="price10" class="price">Rp. 8.000</p>
+
+                </div>
+                <div class="card2">
+                    <img src="assets/image/jerukk.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama11" class="title">Jus Jeruk</td>
+                            <td class="input"><input id="jumlah11" type="number" onchange="handleOnChange(11)"></td>
+                        </tr>
+                    </table>
+                    <p id="price11" class="price">Rp. 15.000</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/image/lemon teaa.jpg" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama12" class="title">Teh Lemon</td>
+                            <td class="input"><input id="jumlah12" type="number" onchange="handleOnChange(12)"></td>
+                        </tr>
+                    </table>
+                    <p id="price12" class="price">Rp. 12.000</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/image/kopi hitam.png" width="100%" height="100%">
+                    <table class="jumlahpesanan">
+                        <tr>
+                            <td id="nama13" class="title">Kopi Hitam</td>
+                            <td class="input"><input id="jumlah13" type="number" onchange="handleOnChange(13)"></td>
+                        </tr>
+                    </table>
+                    <p id="price13" class="price">Rp. 15.000</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <button onClick="hasil()" class="button">Pesan</button></br>
+                <textarea id="total" rows="8"></textarea>
+            </div>
+
+        </div>
+    </main>
+
+<footer>
+    <h2 id="CONTACT">CONTACT US</h2>
+                <div class="contact_link">
+                    <cite><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXmpnLdPvKxzdXbVnSTBSFBsdbgkCcncRvXNlNrtMxmNGqhThhSxwskvWzJHHcFJGnPjB"><img src="assets/image/email.png" width="40px"></a></cite>
+                    <cite><a href="https://www.instagram.com/yuka_co_id/"><img src="assets/image/instagram.png" width="28px"></a></cite>
+                    <cite><a href="https://www.google.com/maps/place/6%C2%B016'05.4%22S+106%C2%B058'31.9%22E/@-6.2681751,106.9733286,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x788ca318f60d8733!8m2!3d-6.2681751!4d106.9755173?hl=en"><img src="assets/image/gmap.png" width="30px"></a></cite>
+                </div>
+    <h3 id="YF">YUKA<font color="darkred">FOOD</font></h3>
+</footer>
+
+<script>
+    let allOrder = []
+    function handleOnChange(id) {
+        const jumlah = document.getElementById(`jumlah${id}`);
+        const nama = document.getElementById(`nama${id}`).innerHTML;
+        const price = document.getElementById(`price${id}`).innerHTML;
+        const convertPrice = price?.split(".")[1] + price?.split(".")[2];
+        const total = jumlah.value * convertPrice;
+        saveOrder(nama, total);
+    }
+    function saveOrder(nama, total) {
+        const order = allOrder.filter((item) => item.nama == nama)
+        if (order?.length > 0) {
+            const indexOrder = allOrder.findIndex((item) => item.nama == nama)
+            allOrder[indexOrder] = {
+                nama: nama,
+                total: total
+            }
+        } else {
+            allOrder.push({
+                nama: nama,
+                total: total
+            })
+        }
+    }
+    function hasil() {
+        const totalHarga = allOrder.reduce((n, {total}) => n + total, 0)
+        const total = document.getElementById("total");
+        total.innerHTML = ""
+        let count = allOrder?.length;
+        allOrder.map((item) => {
+            total.innerHTML += `${item.nama} : ${item.total} \n`
+            count -= 1;
+            if (count === 0) {
+                total.innerHTML += `Total : ${totalHarga}`
+            }
+        })
+    }
+</script>
+
+</body>
+
+</html>
